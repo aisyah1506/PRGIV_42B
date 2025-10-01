@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T1_034</title>
+    <script src="KonversiSuhu.js"></script>
+
+</head>
+
+<body>
+    <h1>Konversi Suhu</h1>
+    <label for="suhu">Masukkan suhu</label>
+    <input type="number" id="suhu">
+    <label for="konversi">Konversi suhu</label>
+    <select id="konversi">
+        <option value="C/F">Celcius - Fahrenheit</option>
+        <option value="C/R">Celcius - Reamur</option>
+        <option value="F/C">Fahrenheit - Celcius</option>
+        <option value="F/R">Fahrenheit - Reamur</option>
+        <option value="R/C">Reamur - Celcius</option>
+        <option value="R/F">Reamur - Fahrenheit</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="mulaiKonversi()">Konversi Suhu</button>
+    <h4>Hasil Konversi Suhu : </h4>
+    <div id="hasilKonversi"></div>
+</body>
+</html>
+
